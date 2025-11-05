@@ -168,7 +168,7 @@ WarningMsg           w19               w4                reverse
 Folded               w15               w4
 LineNr               w8                none
 MatchParen           none              w7                bold
-ModeMsg              fg                bg
+ModeMsg              fg                bg                bold
 MoreMsg              fg                bg
 NonText              w8                none
 Pmenu                w19               w3
