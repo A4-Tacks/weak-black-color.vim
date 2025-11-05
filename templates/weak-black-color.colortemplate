@@ -93,7 +93,6 @@ TabLineSel           -> StatusLine
 ToolbarLine          -> StatusLineNC
 ToolbarButton        -> StatusLine
 SpecialKey           -> Conceal
-VertSplit            -> Normal
 Directory            -> Todo
 
 CocFloatThumb        -> PmenuThumb
@@ -190,6 +189,7 @@ SpellRare            r3                none              underline
 Underlined           r3                none              bold,underline
 StatusLine           w2                w14
 StatusLineNC         w2                w10
+VertSplit            w11               bg
 WildMenu             w2                w20
 Title                none              none              bold
 Visual               none              w6
