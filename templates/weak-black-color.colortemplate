@@ -47,7 +47,6 @@ Debug                -> Special
 debugPC              -> SignColumn
 debugBreakpoint      -> SignColumn
 Define               -> PreProc
-Delimiter            -> Special
 Exception            -> Statement
 EndOfBuffer          -> NonText
 Float                -> Constant
@@ -205,6 +204,7 @@ Ignore               none              none
 Italic               none              none              italic
 PreProc              w12               none
 Special              w18               none
+Delimiter            w14               none
 Statement            w13               none
 Todo                 w23               none              bold
 Type                 w15               none
