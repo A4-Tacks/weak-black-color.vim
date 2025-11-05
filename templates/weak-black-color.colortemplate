@@ -74,7 +74,6 @@ QuickFixLine         -> Search
 Removed              -> diffRemoved
 Repeat               -> Statement
 SpecialChar          -> Special
-SpecialComment       -> Special
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 StorageClass         -> Type
@@ -204,6 +203,7 @@ Ignore               none              none
 Italic               none              none              italic
 PreProc              w12               none
 Special              w18               none
+SpecialComment       w11               none
 Delimiter            w14               none
 Statement            w13               none
 Todo                 w23               none              bold
