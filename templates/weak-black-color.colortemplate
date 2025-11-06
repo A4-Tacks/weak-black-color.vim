@@ -202,7 +202,7 @@ Identifier           w14               none
 Ignore               none              none
 Italic               none              none              italic
 PreProc              w12               none
-Special              w18               none
+Special              w16               none
 SpecialComment       w11               none
 Delimiter            w14               none
 Statement            w13               none
