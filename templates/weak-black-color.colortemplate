@@ -215,5 +215,5 @@ User1                w23               w10
 CocInlayHint         w19               w4
 DiagnosticSignError  w23               w13
 DiagnosticSignWarn   w20               w13
-DiagnosticSignHint   w15               w10
+DiagnosticSignHint   w15               w3
 DiagnosticSignInfo   w10               w5
