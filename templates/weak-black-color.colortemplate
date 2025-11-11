@@ -162,6 +162,9 @@ DiffAdd              w15               w10
 DiffChange           w15               w5
 DiffDelete           w15               w1
 DiffText             w19               w8                bold
+diffAdded            w15               none
+diffChanged          w11               none              bold
+diffRemoved          w8                none
 ErrorMsg             w23               w0                reverse
 WarningMsg           w19               w4                reverse
 Folded               w15               w4
