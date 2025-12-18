@@ -162,7 +162,7 @@ DiffAdd              w15               w10
 DiffChange           w15               w5
 DiffDelete           w15               w1
 DiffText             w19               w8                bold
-diffAdded            w15               none
+diffAdded            w14               none
 diffChanged          w11               none              bold
 diffRemoved          w8                none
 ErrorMsg             w23               w0                reverse
