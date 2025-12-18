@@ -28,7 +28,7 @@ Prefix: weakblack
 ; Variants tell Colortemplate for which environments to generate highlight
 ; group definitions. The 'gui' variant is always enabled and doesn't have to be
 ; specified (unless it's the only one to be supported).
-Environments:   gui 256 0
+Environments:   gui 256 16 0
 
 ; The background must be defined before any color or highlight group.
 Background: dark
@@ -111,31 +111,31 @@ CocMarkdownLink      -> Conceal
 ; The base-256 value is inferred automatically by
 ; Colortemplate when ~ is used.
 
-; Color name         GUI         Base256  Base16 (optional)
-Color: w0            #080808     ~
+; Color name         GUI         Base256                 Base16 (optional)
+Color: w0            #080808     ~                       0
 Color: w1            #0e0e0e     ~
 Color: w2            #191919     ~
 Color: w3            #222222     ~
-Color: w4            #2c2c2c     ~
+Color: w4            #2c2c2c     ~                       8
 Color: w5            #373737     ~
 Color: w6            #424242     ~
 Color: w7            #4d4d4d     ~
 Color: w8            #585858     ~
-Color: w9            #636363     ~
-Color: w10           #6e6e6e     ~
-Color: w11           #797979     ~
-Color: w12           #858585     ~
-Color: w13           #909090     ~
-Color: w14           #9b9b9b     ~
+Color: w9            #636363     ~                       8
+Color: w10           #6e6e6e     ~                       8
+Color: w11           #797979     ~                       8
+Color: w12           #858585     ~                       7
+Color: w13           #909090     ~                       7
+Color: w14           #9b9b9b     ~                       7
 Color: w15           #a6a6a6     ~
 Color: w16           #b1b1b1     ~
-Color: w17           #bcbcbc     ~
+Color: w17           #bcbcbc     ~                       7
 Color: w18           #c7c7c7     ~
 Color: w19           #d2d2d2     ~
-Color: w20           #dddddd     ~
+Color: w20           #dddddd     ~                       15
 Color: w21           #e8e8e8     ~
 Color: w22           #f3f3f3     ~
-Color: w23           #ffffff     ~
+Color: w23           #ffffff     ~                       15
 
 Color: r0            #d75f5f     ~
 Color: r1            #ffaf5f     ~
@@ -143,6 +143,7 @@ Color: r2            #5fd75f     ~
 Color: r3            #d787d7     ~
 
 Normal               w19               w2
+Normal/16/0          w23               w0
 Terminal             w19               w2
 
 ; The following is a 'discriminator'. It is defined using
