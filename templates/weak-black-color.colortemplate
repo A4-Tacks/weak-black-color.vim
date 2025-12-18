@@ -198,8 +198,8 @@ Visual               none              w6
 Bold                 fg                none              bold
 BoldItalic           fg                none              bold,italic
 Comment              w9                none
-Constant             w11               none
-String               w12               none
+Constant             w10               none
+String               w11               none
 Character            w15               none
 Identifier           w14               none
 Ignore               none              none
