@@ -101,6 +101,7 @@ CocErrorFloat        -> ErrorMsg
 CocErrorSign         -> ErrorMsg
 CocVirtualText       -> Conceal
 CocMarkdownLink      -> Conceal
+CocSelectedText      -> CursorLineNr
 ; }}}
 ; basic colors {{{
 ; Color name         GUI         Base256                 Base16 (optional)
