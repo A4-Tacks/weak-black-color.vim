@@ -176,7 +176,7 @@ PmenuSbar            none              w9
 PmenuSbar/8          none              w23
 PmenuThumb           none              w12
 Question             fg                bg
-Search               w2                w20
+Search               w0                w20
 IncSearch            w0                w17
 QuickFixLine         w2                w15
 SignColumn           none              w3
